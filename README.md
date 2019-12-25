@@ -46,3 +46,4 @@ Przykładowa mapa z wyświetloną tylko trasą dla barów.
 
 Jeżeli geolokacja jest włączona i zbliżymy się do jakiegoś z obiektów, wyświetlony zostanie odpowiedni komunikat (zamykany poprzez kliknięcie w niego).
 
+![Alt text](/src/Screens/Screenshot_20191225-172844.png?raw=true "Bary")

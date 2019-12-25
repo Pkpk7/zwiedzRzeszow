@@ -4,7 +4,7 @@ Aplikacja do zwiedzania Rzeszowa. Zawiera kilka predefiniowanych ścieżek zwied
 
 Aby zainstalować aplikację na telefonie przejdź do strony https://pkpk7.github.io/zwiedzRzeszow/. Powinien pojawić się dymek umożliwiający dodanie PWA do ekranu głównego telefonu, albo po kliknięciu "trzech kropek" w prawym gównym rogu i zdalnym dodaniu aplikacji do ekranu głównego. 
 
-![Alt text](/src/Screens/Screenshot_20191225-171033.png?raw=true "Aplikacja na jednym z ekranow telefonu")
+![Alt text](/src/Screens/Screenshot_20191225-171033.png width="200" height="400")
 
 Po włączeniu aplikacji, pojawi się splash art podczas ładowania się aplikacji. 
 

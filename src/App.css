@@ -36,3 +36,182 @@
     transform: rotate(360deg);
   }
 }
+
+.mapContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  }
+ 
+  .sidebarStyle {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    margin-top: 50px;
+    background-color: rgba(40,40,40,0.5);
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+    }
+
+    .barPrzycisk {
+      background-image: url('barIconButton.png');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1 !important;
+      bottom: 75%;
+      left: 15px;
+    
+    }
+
+    .barPrzyciskPressed {
+      background-image: url('barIconButtonPressed.png');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1 !important;
+      bottom: 75%;
+      left: 15px;
+    
+    }
+
+    .zjedzPrzycisk {
+      background-image: url('zjedzIconButton.png');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1 !important;
+      bottom: 65%;
+      left: 15px;
+    
+    }    
+
+    .zjedzPrzyciskPressed {
+      background-image: url('zjedzIconButtonPressed.png');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1 !important;
+      bottom: 65%;
+      left: 15px;
+    
+    }
+
+    .zobaczPrzycisk {
+      background-image: url('zobaczIconButton.png');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1 !important;
+      bottom: 55%;
+      left: 15px;
+    
+    }
+
+    .zobaczPrzyciskPressed {
+      background-image: url('zobaczIconButtonPressed.png');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: absolute;
+      z-index: 1 !important;
+      bottom: 55%;
+      left: 15px;
+    
+    }
+
+
+    .markerBar {
+      background-image: url('barIcon.png');
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .markerZjedz {
+      background-image: url('zjedzIcon.png');
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .markerZobacz {
+      background-image: url('zobaczIcon.png');
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+
+
+    .mapboxgl-popup {
+      max-width: 200px;
+    }
+    
+    .mapboxgl-popup-content {
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .info-box {
+      height: 20px;
+      width: 200px;
+      position: absolute;
+      z-index: 1 !important;
+      bottom: 30px;
+      left: 10px;
+      background-color: rgba(40,40,40,0.5);
+      color: #ffffff;
+      padding: 15px;
+      text-align: left;
+      font-family: 'Arial';
+      margin: 0;
+      font-size: 13px;
+    }
+    .near-places {
+      height: 60px;
+      width: 200px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display:block;
+      z-index: 1 !important;
+      background-color: rgba(40,40,40,0.5);
+      color: #ffffff;
+      padding: 15px;
+      text-align: center;
+      font-family: 'Arial';
+      margin: auto;
+      font-size: 13px;
+    }
